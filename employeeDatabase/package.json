@@ -1,0 +1,29 @@
+{
+  "name": "develop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "classes/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npm run build && node classes/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "inquirer": "^11.1.0",
+    "pg": "^8.13.0",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/pg": "^8.11.10",
+    "tsx": "^4.19.2"
+  }
+}
